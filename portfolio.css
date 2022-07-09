@@ -1,0 +1,135 @@
+.col-1{ width: 8.33%;}
+.col-2{ width: 16.66%;}
+.col-3{ width: 25%;}
+.col-4{ width: 33.33%;}
+.col-5{ width: 41.66%;}
+.col-6{ width: 50%;}
+.col-7{ width: 58.33%;}
+.col-8{ width: 66.66%;}
+.col-9{ width:75%;}
+.col-10{ width: 83.33%;}
+.col-11{ width: 91.66%;}
+.col-12{ width:100%;}
+*{
+    box-sizing: border-box;
+}
+                             /*============== nav-bar design start ============= */
+.nav-logo{
+           /text-align: left; 
+}
+.nav-title h1{
+            text-align: right;
+}
+.nav-menu{
+            flex-direction: row;
+           justify-content: flex-end; 
+}
+.nav-menu a{
+             padding: 5px 10px;
+             margin: 20px 0;
+             background-color: transparent;
+}
+.nav-menu a:hover{
+                  color: yellow;
+                  background-color: cadetblue;
+}
+                                   /*============== nav-bar design end ============= */
+
+                                    /*=================== Profile design Starts========================= */
+
+       
+                                    .profile .top-weather{
+                                        position: absolute;
+                                        width: 120px;
+                                        right: 100px;
+                                        top: 20px;
+                                        transition: width 2s transform 3s;
+                                   }     
+                                   .profile .top-weather:hover{
+                                                    transform: rotate(360deg);
+                                                    width: 140px;
+                                   }      
+
+                                   .profile .bottom-weather{
+                                    position: absolute;
+                                    width: 120px;
+                                   left: 100px;
+                                    bottom: 20px;
+                                    transition: width 2s transform 3s;
+                               }     
+                               .profile .bottom-weather:hover{
+                                                transform: rotate(360deg);
+                                                width: 140px;
+                               }    
+                               .profile-description p{
+                                color: gray;
+                                margin: 0 auto;
+                                text-align: center;
+                                margin-bottom: 10px;
+                                width: 50%;
+                  }  
+
+
+
+                                     /*=================== Profile design Ends============================== */
+
+                                      /*==================About Me START======================= */
+ .about-me-img{
+                margin-top: 100px;
+                
+ }
+ .about-me-img img{
+     height:270px;
+     width: 250px;
+ }
+ .about-me-desc p{
+                  text-align: left;
+ }
+                       /*==================About Me End ======================= */
+ 
+               /*================== Professional Experiance Starts ======================= */
+.prof-exp .card{
+   height: 1000px;
+}
+.skills-container li{
+    margin: 70px 10px;
+}
+
+
+                  /*================== Professional Experiance Ends ======================= */
+
+                   /*================== Achievement-Contract Start ======================= */
+.achivement{
+            padding-right: 50px;
+}
+.contract input,textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+.contract-links{
+    position: relative;
+}
+.media-button{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 200px;
+}
+                /*================== Achivement-Contract Ends ======================= */
+                
+                /*================== Footer Part Starts ======================= */
+   
+                .footer-menu{
+                    margin-top: 12px;
+                }
+                .footer-menu a{
+                    display: inline;
+                    margin: 10px;
+                    font-size: 1rem;
+                }
